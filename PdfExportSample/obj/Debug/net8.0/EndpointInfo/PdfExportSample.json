@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/PatientData": {
+    "/api/PatientDatas": {
       "get": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
         ],
         "responses": {
           "200": {
@@ -44,7 +44,7 @@
       },
       "post": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
         ],
         "requestBody": {
           "content": {
@@ -89,10 +89,10 @@
         }
       }
     },
-    "/api/PatientData/{id}": {
+    "/api/PatientDatas/{id}": {
       "get": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
         ],
         "parameters": [
           {
@@ -130,7 +130,7 @@
       },
       "put": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
         ],
         "parameters": [
           {
@@ -170,7 +170,7 @@
       },
       "delete": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
         ],
         "parameters": [
           {
@@ -190,10 +190,21 @@
         }
       }
     },
-    "/api/PatientData/export/pdf": {
+    "/api/PatientDatas/DownloadPdf/{id}": {
       "get": {
         "tags": [
-          "PatientData"
+          "PatientDatas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -216,7 +227,79 @@
             "type": "string",
             "nullable": true
           },
-          "description": {
+          "age": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "mrn": {
+            "type": "string",
+            "nullable": true
+          },
+          "uin": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "sex": {
+            "type": "string",
+            "nullable": true
+          },
+          "billNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "billDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ipaNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "preauthId": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfAdmission": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dateOfDischarge": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ccn": {
+            "type": "string",
+            "nullable": true
+          },
+          "surgery": {
+            "type": "string",
+            "nullable": true
+          },
+          "approvedAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "packageRate": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "balanceAmountCollected": {
+            "type": "number",
+            "format": "double"
+          },
+          "coPaymentAddition": {
+            "type": "number",
+            "format": "double"
+          },
+          "tpaName": {
+            "type": "string",
+            "nullable": true
+          },
+          "insuranceName": {
             "type": "string",
             "nullable": true
           }

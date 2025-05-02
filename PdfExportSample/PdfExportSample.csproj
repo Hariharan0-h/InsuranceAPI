@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\Class.cs" />
+    <Compile Remove="Controllers\PatientDataController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="itext7" Version="9.1.0" />
     <PackageReference Include="itext7.bouncy-castle-adapter" Version="9.1.0" />
     <PackageReference Include="itext7.commons" Version="9.1.0" />

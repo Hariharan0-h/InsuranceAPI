@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
     "Method": "GetPatientTable",
-    "RelativePath": "api/PatientData",
+    "RelativePath": "api/PatientDatas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,9 +20,9 @@
     ]
   },
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
     "Method": "PostPatientData",
-    "RelativePath": "api/PatientData",
+    "RelativePath": "api/PatientDatas",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -46,9 +46,9 @@
     ]
   },
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
     "Method": "GetPatientData",
-    "RelativePath": "api/PatientData/{id}",
+    "RelativePath": "api/PatientDatas/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -72,9 +72,9 @@
     ]
   },
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
     "Method": "PutPatientData",
-    "RelativePath": "api/PatientData/{id}",
+    "RelativePath": "api/PatientDatas/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -93,9 +93,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
     "Method": "DeletePatientData",
-    "RelativePath": "api/PatientData/{id}",
+    "RelativePath": "api/PatientDatas/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -109,13 +109,19 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "PdfExportSample.Controllers.PatientDataController",
-    "Method": "ExportToPdf",
-    "RelativePath": "api/PatientData/export/pdf",
+    "ContainingType": "PdfExportSample.Controllers.PatientDatasController",
+    "Method": "DownloadPdf",
+    "RelativePath": "api/PatientDatas/DownloadPdf/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

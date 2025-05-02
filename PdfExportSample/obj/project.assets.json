@@ -10838,23 +10838,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Training 6\\.nuget\\packages\\": {},
+    "C:\\Users\\training23\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Training 6\\source\\repos\\PdfExportSample\\PdfExportSample\\PdfExportSample.csproj",
+      "projectUniqueName": "D:\\Legacy\\InsuranceAPI\\PdfExportSample\\PdfExportSample.csproj",
       "projectName": "PdfExportSample",
-      "projectPath": "C:\\Users\\Training 6\\source\\repos\\PdfExportSample\\PdfExportSample\\PdfExportSample.csproj",
-      "packagesPath": "C:\\Users\\Training 6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Training 6\\source\\repos\\PdfExportSample\\PdfExportSample\\obj\\",
+      "projectPath": "D:\\Legacy\\InsuranceAPI\\PdfExportSample\\PdfExportSample.csproj",
+      "packagesPath": "C:\\Users\\training23\\.nuget\\packages\\",
+      "outputPath": "D:\\Legacy\\InsuranceAPI\\PdfExportSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Training 6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\training23\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10951,7 +10951,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
